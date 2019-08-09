@@ -1,0 +1,57 @@
+
+table.table-bordered.dataTable {
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+    border-collapse: collapse;
+    table-layout: fixed; 
+    font-size: 12px;	
+    text-align: center;
+}
+
+table.table-bordered.dataTable tbody td {
+    word-break: break-word;
+}
+table.table-bordered.dataTable tbody tr:hover {
+    background-color: #ffa;
+  }
+table.table-bordered.dataTable tbody td {
+    padding: 0px;
+}
+table.dataTable tfoot th, table.dataTable tfoot td {
+    padding: 2px 2px 2px 2px !important;
+    border-top: 1px solid #111;
+}
+table tr td.Red {
+    background: red;
+    color: white;
+}
+table tr td.Blue {
+    background: blue;
+    color: white;
+}
+table tr td.Dimgrey {
+    background: dimgrey;
+    color: white;
+}
+tfoot input {
+    width: 100%; 
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+}
+
+.showTop {
+    display: table-row-group !important;
+}
+#example1 {
+   width:100%
+}
+.toolbar {
+    float: right;
+}
+textarea {
+    overflow-y: scroll;
+    height: 100px;
+    resize: none; /* Remove this if you want the user to resize the textarea */
+}
